@@ -5,9 +5,13 @@ This application demonstrates user authentication, account management, and email
 
 ## Build Instructions
 
+To clone and run the demo:
+
 ```
 git clone git@github.com:stormpath/stormpath-csharp-cli-example.git
 cd stormpath-csharp-cli-example
 msbuild Stormpath.Demo.sln
-.\bin\Debug\Stormpath.Demo.exe
+.\Stormpath.Demo\bin\Debug\Stormpath.Demo.exe
 ```
+
+To build with Mono, substitute `xbuild`.
