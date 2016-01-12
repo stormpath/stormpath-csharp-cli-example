@@ -1,7 +1,8 @@
 # stormpath-csharp-cli-example
-An example that demonstrates how to use Stormpath build a Console application in C#.
 
 This application demonstrates user authentication, account management, and email verification.
+
+For a tutorial, check out the [C# SDK quickstart](https://github.com/stormpath/stormpath-sdk-dotnet/blob/develop/README.MD#quickstart)!
 
 ## Build Instructions
 
