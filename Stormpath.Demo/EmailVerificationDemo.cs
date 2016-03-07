@@ -43,14 +43,8 @@ namespace Stormpath.Demo
             {
                 return;
             }
-
-            var apiKey = ClientApiKeys.Builder()
-                .SetFileLocation("~\\.stormpath\\apiKey.properties")
-                .Build();
-
             // Create an IClient object. Everything starts here!
             var client = Clients.Builder()
-                .SetApiKey(apiKey)
                 .Build();
 
             var application = await client.GetApplications()

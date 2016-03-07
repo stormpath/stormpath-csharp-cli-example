@@ -31,13 +31,8 @@ namespace Stormpath.Demo
     {
         public override async Task RunAsync(CancellationToken cancellationToken)
         {
-            var apiKey = ClientApiKeys.Builder()
-                .SetFileLocation("~\\.stormpath\\apiKey.properties") // This is actually unnecessary, because this is already the default search path
-                .Build();
-
             // Create an IClient object. Everything starts here!
             var client = Clients.Builder()
-                .SetApiKey(apiKey)
                 .Build();
 
             // Get current tenant
